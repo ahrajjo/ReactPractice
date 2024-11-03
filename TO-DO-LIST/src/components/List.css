@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&family=Itim&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&family=IBM+Plex+Sans+KR&family=Itim&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.List {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.List .little-title {
+  color: #353535;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.List > input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #c8d5b9;
+  padding: 15px 0px;
+  font-family: "Hi Melody", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.List > input:focus {
+  outline: none;
+  border-bottom: 2px solid #2d6a4f;
+}
+
+.List .todos-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

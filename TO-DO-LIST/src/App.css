@@ -1,0 +1,10 @@
+.App {
+    border: 2px solid #718355;
+    border-radius: 10px;
+    padding: 55px;
+    background-color: white;
+}
+
+body {
+    background-color: #f8f9fa;
+}
