@@ -1,0 +1,53 @@
+.App {
+  max-width: 1200px;
+margin: 0 auto;
+}
+.pink-nav {
+  background-color: #f4acb7;
+  color: white;
+  font-size: 1em;
+  width: 100%;
+  height: 80px;
+  padding-left: 20px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  border: none;
+  border-bottom: 1px solid #ffe5d9;
+  padding-left: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+h4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #eee;
+  text-align: left;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  background-color: #f4acb7;
+  margin-left: 20px;
+}
+
